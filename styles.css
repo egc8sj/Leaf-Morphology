@@ -1,0 +1,43 @@
+.bar{
+	fill: #999;
+}
+
+.bar:hover{
+	fill: #000;
+}
+
+.axis {
+	font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+text { fill: black; }
+
+.arc path:hover{
+	fill: green !important;
+}
+
+.arc text { 
+	fill: white; 
+	font-family: sans-serif;  
+	font-size: 10px;
+}
+
+button {
+	background-color: blue;
+	border-radius: 10px;
+	padding: 10px;
+	color: white;
+	border: none;
+	font-size: 30px;
+}
+
+button:hover { background-color: darkblue; }
+
+.icons { color: red; }
