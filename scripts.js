@@ -15,7 +15,7 @@
 	
 	var x = d3.scaleBand()
 	.rangeRound([0, bcWidth])
-	.padding(.85);
+	.padding(.75);
 
 		// scaleBand() creates a Band scale which is used in a bar chart. Discrete output values are automatically computed by the scale by dividing the continuous range into uniform bands. Read more at https://github.com/d3/d3-scale/blob/master/README.md#scaleBand.
 
