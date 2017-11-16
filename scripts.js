@@ -1,7 +1,7 @@
 // Part one - bar chart
 
 	// Select SVG from HTML and specify margins, width and height
-	var barchart = d3.select("#part-one").selectAll("#bar-chart");
+	var barchart = d3.select("#chart").selectAll("#bar-chart");
 	
 	var bcMargin = {top: 20, right: 100, bottom: 30, left: 100};
 	
